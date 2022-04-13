@@ -1,5 +1,9 @@
 # Similarity Metrics at High Dimensionality - testing for rare cell types
 
+## Docs
+Documentation and reproducibility are available at:
+
+https://ebony-watson.github.io/scProximitE
 
 ## Install
 ```
