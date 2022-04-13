@@ -47,7 +47,7 @@ setup(name='dimred',
       },
       install_requires=['pandas', 'numpy', 'tensorflow', 'stats', 'seaborn', 'matplotlib', 'sklearn', 'jupyterlab',
                         'scanpy==1.8.2', 'sciviso', 'scikit_posthocs', 'torch', 'genieclust', 'natsort',
-                        'otscomics @ http://github.com/SergeySatskiy/cdm-pythonparser/archive/v2.0.1.tar.gz'],
+                        'otscomics @ https://github.com/Ebony-Watson/scProximitE/tree/main/software/otscomics-0.0.1.tar.gz'],
       python_requires='>=3.6',
       data_files=[("", ["LICENSE"])]
       )
