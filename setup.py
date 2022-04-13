@@ -4,7 +4,7 @@ import re
 
 
 def read_version():
-    path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'dimred/__init__.py')
+    path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'scproximite/__init__.py')
     with open(path, 'r') as fh:
         return re.search(r'__version__\s?=\s?[\'"](.+)[\'"]', fh.read()).group(1)
 
@@ -39,10 +39,10 @@ setup(name='dimred',
           'Topic :: Scientific/Engineering :: Bio-Informatics',
       ],
       keywords='util',
-      packages=['dimred'],
+      packages=['scproximite'],
       entry_points={
           'console_scripts': [
-              'dimred = dimred.__main__:main'
+              'scproximite = scproximite.__main__:main'
           ]
       },
       install_requires=['pandas', 'numpy', 'tensorflow', 'stats', 'seaborn', 'matplotlib', 'sklearn', 'jupyterlab',
