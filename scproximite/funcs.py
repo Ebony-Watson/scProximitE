@@ -540,11 +540,11 @@ def vis_dataframe(datasets, datasets_dict, metrics, k_vals, eval_metrics):
     vis_df = pd.DataFrame()
     vis_df['Metric'] = metrics_df
     vis_df['Performance'] = scores_df
-    vis_df['k value'] = kval_df
-    vis_df['Evaluation Metric'] = eval_df
+    vis_df['k_value'] = kval_df
+    vis_df['Evaluation_Metric'] = eval_df
     vis_df['Dataset'] = datasetname_df
-    vis_df['Data Structure'] = structure_df
-    vis_df['Population Balance'] = rarity_df
+    vis_df['Data_Structure'] = structure_df
+    vis_df['Population_Balance'] = rarity_df
     vis_df['Condition'] = condition_df
     vis_df['Property'] = property_df
     return vis_df
