@@ -93,35 +93,3 @@ Additional:
 Sourced from:https://zenodo.org/record/3238275#.YWYVKBx_VhE
 
 Paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1739-7 
-
-###  Tang et al. (2019)
-
-single-cell RNA-seq (Drop-seq) of 400 HCA2 (Human foreskin) fibroblasts at population doubling 38 (young group (PD38)), population doubling 48 (middle-age group (PD48)), and population doubling 71 (senescent group (RS)), as well as population doubling 38 cells irradiated at 50Gy & left for 20 days (IS). Resulting in a total of 1200 cells. Senescence in IS and RS cells was confirmed with Beta-Gal staining & EdU assay.
-
-Datasets are annotated with 'orig.ident' (PD38, PD48, RS, IR), and a few QC metrics.
-Data is downloaded as seperate count matrices for each population, and were loaded into R & merged into a Seurat object, followed by filtering for the 'Filtered' files, or nothing for the 'UNFiltered' files. The Seurat object was then convereted from seurat to anndata object using SCEasy.
-
-#### Final data is available in RDM under code/DimensionalityReduction_Aim2/data/Tang_2019/:
-- Tang_All_Filtered(sceasy).h5ad (This contains all four groups, has undergone filtering)
-- Tang_All_UNFiltered(sceasy).h5ad (This contains all four groups)
-- Tang_PD38_PD48_PD71_Filtered_(sceasy).h5ad (This only contains the time-based groups, has undergone filtering)
-- Tang_PD38_PD48_PD71_UNFiltered_(sceasy).h5ad (This only contains the time-based groups)
-- GSM3384106_LowPDCtrl.dge.txt.gz (Raw txt file containing count matrix for PD38)
-- GSM3384107_LowPD50Gy.dge.txt.gz (Raw txt file containing count matrix for IR)
-- GSM3384108_HighPDCtrl.dge.txt.gz (Raw txt file containing count matrix for PD48)
-- GSM3384109_senescence.dge.txt.gz (Raw txt file containing count matrix for RS)
-
-*None of the datasets have been normalised/transformed/scaled*
-
-##### Filtering:
-Filtered cells for:
-- ≥ 200 genes expressed per cell
-- ≥ 10% mitochondrial genes
-
-Filtered genes for:
-- Expression in ≥ 10% of all cells.
-
-
-Sourced from: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119807 
-
-Paper: https://link.springer.com/article/10.1007/s13238-018-0591-y 
