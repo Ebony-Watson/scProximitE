@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>scProximitE &mdash; scProximitE 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/logo.png"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://Ebony-Watson.github.io/scproximite/about.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="_static/custom.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installing scProximitE" href="installing/index.html" />
+    <link rel="prev" title="scProximitE" href="index.html" />
+ 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">scProximitE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#datasets">Datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cellsius">Cellsius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#batch1-imr90-and-hct116-50-50">Batch1: IMR90 and HCT116 (50/50)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#batch2-a549-and-ramos-50-50">Batch2: A549 and Ramos (50/50)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#batch3-hek293-and-h1437-50-50">Batch3: HEK293 and H1437 (50/50)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#da234-batch-4-jurkat-k562-ramos-40-jurkat-55-k562-and-5-ramos">DA234 (Batch 4): Jurkat, K562, Ramos (40% Jurkat, 55% K562 and 5% Ramos)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cell-type-annotation">Cell-type annotation:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#subsets">Subsets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#final-datasets-are-located-in-rdm-under-code-dimensionalityreduction-aim2-data-cellsius">Final datasets are located in RDM under code/DimensionalityReduction_Aim2/data/Cellsius/:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#filtering">Filtering:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tang-et-al-2019">Tang et al. (2019)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Filtering:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installing/index.html">Installing scProximitE</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Running SCproximitE</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="examples/FrameworkTutorial.html">Framework Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/VisualisationTutorial.html">Visualisation Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/RTutorial.html">Promimity metrics in R</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reproducibility</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="reprod/Dimensionality_Figures.html">Dimensionality Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reprod/Rarity_Figures.html">Rarity Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reprod/Sparsity_Figures.html">Sparsity Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reprod/Structure_Figures.html">Structure Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reprod/Neighbourhood_Figure.html">Neighbourhood Figure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Change log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">scProximitE</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>scProximitE</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/Ebony-Watson/sciviso/blob/main/docs_src/src/about.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="scproximite">
+<h1>scProximitE<a class="headerlink" href="#scproximite" title="Permalink to this headline">¶</a></h1>
+<p>The accurate identification of cell sub-populations is paramount to the quality of downstream analyses and overall
+interpretations of single-cell RNA-seq (scRNA-seq) datasets but remains an ongoing challenge for the field.
+The quality of single-cell clustering has been demonstrated to be largely dependent on the proximity metric
+used to generate cell-to-cell distances provided as input for the clustering algorithm. Accordingly, proximity
+metrics have been benchmarked for scRNA-seq clustering previously, with results averaged across numerous datasets
+to identify a single metric for recommendation. However, the metric identified as ‘best-performing’ varies between
+studies, and the performance of proximity metrics has been found differ significantly between individual datasets.
+These results suggest that the unique structural properties of scRNA-seq datasets impacts the performance of proximity
+metrics, and as such identification of a single best-performing metric may be impossible. To investigate this,
+we developed a framework for the in-depth evaluation of 17 proximity metrics performance with respect to core
+structural properties of scRNA-seq data, including sparsity, dimensionality, cell population distribution and rarity.
+We find that clustering performance can be improved substantially by the selection of an appropriate proximity metric
+and neighbourhood size for the structural properties of a given dataset, as well as suitable processing and dimensionality
+reduction approaches. Furthermore, popular metrics such as Euclidean and Manhattan distance performed poorly in
+comparison to several lessor applied metrics, suggesting the default metric of choice for many scRNA-seq methods
+should be re-evaluated. Our findings highlight the critical nature of tailoring scRNA-seq analyses pipelines to
+the dataset at hand and provide practical guidance for researchers looking to optimise cell similarity search
+for the structural properties of their own data.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/Fig2.png"><img alt="_images/Fig2.png" src="_images/Fig2.png" style="width: 1000px;" /></a>
+</div>
+<div class="section" id="datasets">
+<h2>Datasets<a class="headerlink" href="#datasets" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cellsius">
+<h3>Cellsius<a class="headerlink" href="#cellsius" title="Permalink to this headline">¶</a></h3>
+<p>A benchmark dataset of ~ 12,000 single-cell transcriptomes from eight human cell lines. The eight human cell lines were individually profiled by bulk RNA-seq, and mixed in four batches containing mixtures of two or three cell lines each for scRNA-seq profiling.</p>
+</div>
+<div class="section" id="batch1-imr90-and-hct116-50-50">
+<h3>Batch1: IMR90 and HCT116 (50/50)<a class="headerlink" href="#batch1-imr90-and-hct116-50-50" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>IMR90 is a fibroblast cell line, isolated from fetal lung. Female.</p></li>
+<li><p>HCT116 is from human colon carcinoma with epithelium-like morphology. Male.</p></li>
+</ul>
+</div>
+<div class="section" id="batch2-a549-and-ramos-50-50">
+<h3>Batch2: A549 and Ramos (50/50)<a class="headerlink" href="#batch2-a549-and-ramos-50-50" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>A549 is from human lung carcinoma, cell type is epithelial. Male.</p></li>
+<li><p>Ramos cells are from Burkitt’s lymphoma. They are lymphoblasts with B-cell characteristics. Ramos cells are very small (7-10um), so we usually find that they have fewer detected features and lower total count than other cell lines. Male.</p></li>
+</ul>
+</div>
+<div class="section" id="batch3-hek293-and-h1437-50-50">
+<h3>Batch3: HEK293 and H1437 (50/50)<a class="headerlink" href="#batch3-hek293-and-h1437-50-50" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>HEK293 is a cell line form human embryonic kidney cells. Female.</p></li>
+<li><p>H1437 is from lung adenocarcinoma (i.e. origin is epithelial / glandular). Male.</p></li>
+</ul>
+</div>
+<div class="section" id="da234-batch-4-jurkat-k562-ramos-40-jurkat-55-k562-and-5-ramos">
+<h3>DA234 (Batch 4): Jurkat, K562, Ramos (40% Jurkat, 55% K562 and 5% Ramos)<a class="headerlink" href="#da234-batch-4-jurkat-k562-ramos-40-jurkat-55-k562-and-5-ramos" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Jurkat is a T-cell lymphoblast cell line. Male.</p></li>
+<li><p>K562 is a lymphoblast cell line wih granulocyte/erythrocyte/monocyte characteristics (fairly undifferentiated). Female.</p></li>
+</ul>
+</div>
+<div class="section" id="cell-type-annotation">
+<h3>Cell-type annotation:<a class="headerlink" href="#cell-type-annotation" title="Permalink to this headline">¶</a></h3>
+<p>Correlation of the single-cell to bulk expression profiles was used for cell type assignment, &amp; Single cells were assigned to the cell type correlating most with their expression profile. Cells were excluded if their z-score correlation &lt; 0.2, or if they correlated strongly with more than one bulk expression profile (likely doublets).</p>
+</div>
+<div class="section" id="subsets">
+<h3>Subsets<a class="headerlink" href="#subsets" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line">Cell-type  | Complete| Subset 1 | Subset 2|</div>
+<div class="line">————- | ————- | ————- | ————- |</div>
+<div class="line">HCT116  | 1743  | 1400  | 1600  |</div>
+<div class="line">HEK293  | 2002  | 1600  | 2000  |</div>
+<div class="line">IMR90  | 1039  | 500  | 100 |</div>
+<div class="line">A549  | 1320  | 400  | 80  |</div>
+<div class="line">Ramos  | 1892  | 350  | 125  |</div>
+<div class="line">H1437  | 1116  | 270  | 3  |</div>
+<div class="line">K562  | 1606  | 380  | 70  |</div>
+<div class="line">Jurkat  | 962  | 100  | 6  |</div>
+</div>
+<p>Datasets are pre-annotated with cell_idx, Batch, cell_line, cell_cycle_phase, gene names etc. and a range of QC metrics (would not necessarily trust).
+Data is downloaded as an R data object, and were subsequently processed in R. Then convereted from seurat to anndata object using SCEasy.</p>
+</div>
+<div class="section" id="final-datasets-are-located-in-rdm-under-code-dimensionalityreduction-aim2-data-cellsius">
+<h3>Final datasets are located in RDM under code/DimensionalityReduction_Aim2/data/Cellsius/:<a class="headerlink" href="#final-datasets-are-located-in-rdm-under-code-dimensionalityreduction-aim2-data-cellsius" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Cellsius_Complete_Raw(sceasy).h5ad (Full dataset of all 8 cell lines, only pre-cursor filtering)</p></li>
+<li><p>Cellsius_Subset1_Raw(sceasy).h5ad (Subset 1 dataset of all 8 cell lines, only pre-cursor filtering)</p></li>
+<li><p>Cellsius_Subset2_Raw(sceasy).h5ad (Subset 2 dataset of all 8 cell lines, only pre-cursor filtering)</p></li>
+<li><p>subset1_sce_cleaned(SCEeasy).h5ad (Subset 1 dataset of all 8 cell lines, pre-cursor + some additional filtering)</p></li>
+<li><p>subset2_sce_cleaned(sceasy).h5ad (Subset 2 dataset of all 8 cell lines, pre-cursor + some additional filtering)</p></li>
+</ul>
+<p><em>None of the datasets have been normalised/transformed/scaled</em></p>
+</div>
+<div class="section" id="filtering">
+<h3>Filtering:<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h3>
+<p>Precursor (done by authors prior to uploading data publically):
+- ≥ 10.5 genes per cell [log2]
+- ≥ 12.0 total UMIs / cell [log2]
+- ≥ 10% mitochondrial genes</p>
+<p>Additional:
+- Outliers
+- ≥ 3 counts in at least 1 cell</p>
+<p>Sourced from:https://zenodo.org/record/3238275#.YWYVKBx_VhE</p>
+<p>Paper: <a class="reference external" href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1739-7">https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1739-7</a></p>
+</div>
+<div class="section" id="tang-et-al-2019">
+<h3>Tang et al. (2019)<a class="headerlink" href="#tang-et-al-2019" title="Permalink to this headline">¶</a></h3>
+<p>single-cell RNA-seq (Drop-seq) of 400 HCA2 (Human foreskin) fibroblasts at population doubling 38 (young group (PD38)), population doubling 48 (middle-age group (PD48)), and population doubling 71 (senescent group (RS)), as well as population doubling 38 cells irradiated at 50Gy &amp; left for 20 days (IS). Resulting in a total of 1200 cells. Senescence in IS and RS cells was confirmed with Beta-Gal staining &amp; EdU assay.</p>
+<p>Datasets are annotated with ‘orig.ident’ (PD38, PD48, RS, IR), and a few QC metrics.
+Data is downloaded as seperate count matrices for each population, and were loaded into R &amp; merged into a Seurat object, followed by filtering for the ‘Filtered’ files, or nothing for the ‘UNFiltered’ files. The Seurat object was then convereted from seurat to anndata object using SCEasy.</p>
+<p>#### Final data is available in RDM under code/DimensionalityReduction_Aim2/data/Tang_2019/:
+- Tang_All_Filtered(sceasy).h5ad (This contains all four groups, has undergone filtering)
+- Tang_All_UNFiltered(sceasy).h5ad (This contains all four groups)
+- Tang_PD38_PD48_PD71_Filtered_(sceasy).h5ad (This only contains the time-based groups, has undergone filtering)
+- Tang_PD38_PD48_PD71_UNFiltered_(sceasy).h5ad (This only contains the time-based groups)
+- GSM3384106_LowPDCtrl.dge.txt.gz (Raw txt file containing count matrix for PD38)
+- GSM3384107_LowPD50Gy.dge.txt.gz (Raw txt file containing count matrix for IR)
+- GSM3384108_HighPDCtrl.dge.txt.gz (Raw txt file containing count matrix for PD48)
+- GSM3384109_senescence.dge.txt.gz (Raw txt file containing count matrix for RS)</p>
+<p><em>None of the datasets have been normalised/transformed/scaled</em></p>
+</div>
+<div class="section" id="id1">
+<h3>Filtering:<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Filtered cells for:
+- ≥ 200 genes expressed per cell
+- ≥ 10% mitochondrial genes</p>
+<p>Filtered genes for:
+- Expression in ≥ 10% of all cells.</p>
+<p>Sourced from: <a class="reference external" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119807">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119807</a></p>
+<p>Paper: <a class="reference external" href="https://link.springer.com/article/10.1007/s13238-018-0591-y">https://link.springer.com/article/10.1007/s13238-018-0591-y</a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="installing/index.html" class="btn btn-neutral float-right" title="Installing scProximitE" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="scProximitE" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2022, Ebony Watson.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -14,13 +14,13 @@ def readme():
         return f.read()
 
 
-setup(name='dimred',
+setup(name='scproximite',
       version=read_version(),
       description='',
       long_description=readme(),
       long_description_content_type='text/markdown',
       author='Ebony Watson',
-      author_email='ebonyrwatsion@gmail.com',
+      author_email='ebonyrwatson@gmail.com',
       url='https://github.com/Ebony-Watson/scProximitE',
       license='GPL3',
       project_urls={
@@ -46,8 +46,8 @@ setup(name='dimred',
           ]
       },
       install_requires=['pandas', 'numpy', 'tensorflow', 'stats', 'seaborn', 'matplotlib', 'sklearn', 'jupyterlab',
-                        'scanpy==1.8.2', 'sciviso', 'scikit_posthocs', 'torch', 'genieclust', 'natsort',
-                        'otscomics @ https://github.com/Ebony-Watson/scProximitE/tree/main/software/otscomics-0.0.1.tar.gz'],
+                        'scanpy==1.8.2', 'sciviso', 'scikit_posthocs', 'torch', 'genieclust', 'natsort', 'leidenalg',
+                        'otscomics @ https://github.com/Ebony-Watson/scProximitE/raw/main/software/otscomics-0.0.1.tar.gz'],
       python_requires='>=3.6',
       data_files=[("", ["LICENSE"])]
       )
