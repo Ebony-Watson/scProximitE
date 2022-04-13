@@ -47,7 +47,7 @@ setup(name='scproximite',
       },
       install_requires=['pandas', 'numpy', 'tensorflow', 'stats', 'seaborn', 'matplotlib', 'sklearn', 'jupyterlab',
                         'scanpy==1.8.2', 'sciviso', 'scikit_posthocs', 'torch', 'genieclust', 'natsort', 'leidenalg',
-                        'otscomics @ https://github.com/Ebony-Watson/scProximitE/raw/main/software/otscomics-0.0.1.tar.gz'],
+                        'otscomics @ https://github.com/ArianeMora/deps/raw/main/dists/otscomics-0.0.1.tar.gz'],
       python_requires='>=3.6',
       data_files=[("", ["LICENSE"])]
       )
