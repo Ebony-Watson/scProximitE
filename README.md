@@ -24,7 +24,7 @@ pip install scproximite
 
 ## Run tutorials
 
-1. Get tutorial data from zeonodo: https://zenodo.org/record/XXXX
+1. Get tutorial data from zeonodo: https://zenodo.org/record/6443267 (DOI: 10.5281/zenodo.6443266)
 2. Add to the `data/framework` folder
 3. Run `jupyter notebook` in the `tutorials` folder
 
