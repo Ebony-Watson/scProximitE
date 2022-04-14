@@ -41,20 +41,6 @@ Data
    :widths: 15 15 50
    :header-rows: 1
 
-   * - Name
-     - Link
-     - Reference
-   * - `CellSIUS`_
-     - https://zenodo.org/record/3238275
-     - Popescu D-M, Botting RA, Stephenson E, et al. Decoding human fetal liver haematopoiesis. Nature 2019; 574:365–371
-
-   * - Name
-     - Link
-     - Reference
-   * - `Fetal liver haematopoiesis`_
-     - https://developmentcellatlas.ncl.ac.uk/datasets/hca_liver/data_share/
-     - Popescu D-M, Botting RA, Stephenson E, et al. Decoding human fetal liver haematopoiesis. Nature 2019; 574:365–371
-
 Environments
 ------------
 This will be user dependent but don't forget to cite anaconda if you use it or `reticulate <https://rstudio.github.io/reticulate/>`_ if you use R.
