@@ -15,7 +15,7 @@ help:
 .PHONY: help Makefile
 
 doc:
-	@mingw32-make html
+	@make html
 	@rm -rf ../docs/*
 	@mkdir -p ../docs
 	@touch ../docs/.nojekyll
