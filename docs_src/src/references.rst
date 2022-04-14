@@ -6,7 +6,7 @@ References
 Code
 ----
 
-sci-viso is designed for Python >=3.6 and requires the following libraries, which will be automatically installed:
+ProximitE is designed for Python >=3.8 and requires the following libraries, which will be automatically installed:
 
 .. list-table::
    :widths: 15 15 50
@@ -44,10 +44,16 @@ Data
    * - Name
      - Link
      - Reference
-   * - `Iris dataset <https://en.wikipedia.org/wiki/Iris_flower_data_set>`_
-     - https://archive.ics.uci.edu/ml/datasets/Iris/
-     - Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); Edgar Anderson (1936). "The species problem in Iris". Annals of the Missouri Botanical Garden. 23 (3): 457–509. doi:10.2307/2394164
+   * - `CellSIUS`_
+     - https://zenodo.org/record/3238275
+     - Popescu D-M, Botting RA, Stephenson E, et al. Decoding human fetal liver haematopoiesis. Nature 2019; 574:365–371
 
+   * - Name
+     - Link
+     - Reference
+   * - `Fetal liver haematopoiesis`_
+     - https://developmentcellatlas.ncl.ac.uk/datasets/hca_liver/data_share/
+     - Popescu D-M, Botting RA, Stephenson E, et al. Decoding human fetal liver haematopoiesis. Nature 2019; 574:365–371
 
 Environments
 ------------

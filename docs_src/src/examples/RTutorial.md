@@ -33,7 +33,7 @@ Options for proximity metrics in R are:
 
 From the implementation provided by the dismay package (https://github.com/skinnider/dismay). 
 
-As dismay package computes metrics as simialrities, they are converted to dissimilarities when merged with python metrics. 
+As dismay package computes metrics as similarities, they are converted to dissimilarities when merged with python metrics. 
 
 ```
 library(Seurat)
@@ -57,7 +57,7 @@ for (data in datasets){
 
 ```
 
-Compute a distance matrix for each metric listed on each dataset provided, and outputs them to the data directory as 
+Computes a distance matrix for each metric listed on each dataset provided, and outputs them to the data directory as 
 .csv files for integration into the anndata object in python.
 
 
