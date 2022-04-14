@@ -11,7 +11,7 @@ Python using pip
 
 
 
-Note: scproximite was developed using Python 3.8, of you have any issues we recommend using conda and creating a new
+Note: scproximite was developed using Python 3.8, if you have any issues we recommend using conda and creating a new
 environment before installing:
 
 

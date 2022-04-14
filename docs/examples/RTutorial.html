@@ -249,7 +249,7 @@ library(&#39;dismay&#39;)
 <li><p>zi-kendall</p></li>
 </ul>
 <p>From the implementation provided by the dismay package (https://github.com/skinnider/dismay).</p>
-<p>As dismay package computes metrics as simialrities, they are converted to dissimilarities when merged with python metrics.</p>
+<p>As dismay package computes metrics as similarities, they are converted to dissimilarities when merged with python metrics.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">library</span><span class="p">(</span><span class="n">Seurat</span><span class="p">)</span>
 <span class="n">library</span><span class="p">(</span><span class="n">reticulate</span><span class="p">)</span>
 <span class="c1"># Note here is where we suggest you use the conda env with scproximite installed</span>
@@ -270,7 +270,7 @@ library(&#39;dismay&#39;)
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>Compute a distance matrix for each metric listed on each dataset provided, and outputs them to the data directory as
+<p>Computes a distance matrix for each metric listed on each dataset provided, and outputs them to the data directory as
 .csv files for integration into the anndata object in python.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>for (data in datasets){
   dat &lt;- readRDS(paste(data_dir,data,&quot;.rds&quot;,sep =&quot;&quot;))
