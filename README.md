@@ -1,4 +1,9 @@
 # Similarity Metrics at High Dimensionality - testing for rare cell types
+This package is designed for evaluating the performance of various proximity metrics (including distance, similarity, dissimilarity, correlation etc. metrics) with respect to quantifying cell-cell similarity in scRNA-seq datasets. The study for which the package was originally created and the performance of the metrics included in the package with respect to various dataset-specific properties of scRNA-seq data is available at https://doi.org/10.1093/bib/bbac387.
+
+If relevant, please cite this package using the paper citation:
+Ebony Rose Watson, Ariane Mora, Atefeh Taherian Fard, Jessica Cara Mar, How does the structure of data impact cell–cell similarity? Evaluating how structural properties influence the performance of proximity metrics in single cell RNA-seq data, Briefings in Bioinformatics, Volume 23, Issue 6, November 2022, bbac387, https://doi.org/10.1093/bib/bbac387
+
 
 ## Docs
 Documentation and reproducibility are available at:
